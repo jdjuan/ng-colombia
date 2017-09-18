@@ -113,7 +113,24 @@ h1.title {
 h2.subtitle {
     color: white;
     font-size: 2.5rem;
-    margin-top: -10px;
+    margin-top: 0rem;
+}
+
+.one-star {
+    width: 8rem;
+    height: 8rem;
+    display: inline-block;
+    background: url(/assets/star.png) no-repeat;
+    margin-bottom: -1rem;
+}
+
+.small-star {
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
+    background: url(/assets/star.png) no-repeat;
+    margin-bottom: -0.5rem;
+    background-size: 3rem;
 }
 
 @media (max-width: 799px) {
@@ -124,7 +141,7 @@ h2.subtitle {
         font-size: 2rem;
         margin-top: 4rem;
     }
-    .title-stars {
+    .small-star {
         display: none;
     }
 }
@@ -137,7 +154,7 @@ h2.subtitle {
         font-size: 2rem;
         margin-top: 4rem;
     }
-    .title-stars {
+    .small-star {
         display: none;
     }
     #mc_embed_signup input.email {
