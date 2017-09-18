@@ -155,7 +155,7 @@ h2.subtitle {
         width: 3rem;
         height: 3rem;
         display: inline-block;
-        background: url(/assets/star.png) no-repeat 3rem;
+        background: url(/assets/star.png) no-repeat;
         margin-bottom: -0.5rem;
         background-size: 3rem;
     }
