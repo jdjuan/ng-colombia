@@ -68,6 +68,7 @@ div#mc_embed_signup {
 #mc_embed_signup form {
     text-align: center;
     text-align: -webkit-center;
+    text-align: -moz-center;
     padding: 0;
 }
 
@@ -81,6 +82,7 @@ div#mc_embed_signup {
     background-color: #1668b7;
     font-size: 1.7rem;
     min-height: 3.8rem;
+    margin: 20px auto;
 }
 
 #mc_embed_signup .button:hover {
@@ -94,6 +96,7 @@ div#mc_embed_signup {
     min-height: 3.7rem;
     margin-bottom: 0.8rem;
     background-color: ghostwhite;
+    margin: 20px auto;
 }
 
 div#mc_embed_signup {
