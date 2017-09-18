@@ -100,37 +100,86 @@ div#mc_embed_signup {
 }
 
 div#mc_embed_signup {
-    margin-top: 10rem;
+    margin-top: 17rem;
 }
 
 h1.title {
     color: white;
-    font-size: 8rem;
+    font-size: 10rem;
     margin-bottom: 0;
-    margin-top: 1rem;
+    margin-top: 4rem;
 }
-
 h2.subtitle {
     color: white;
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-top: 0rem;
 }
-
 .one-star {
-    width: 8rem;
-    height: 8rem;
+    width: 10rem;
+    height: 10rem;
     display: inline-block;
     background: url(/assets/star.png) no-repeat;
+    background-size: 10rem;
     margin-bottom: -1rem;
 }
-
 .small-star {
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     display: inline-block;
     background: url(/assets/star.png) no-repeat;
     margin-bottom: -0.5rem;
-    background-size: 3rem;
+    background-size: 4rem;
+}
+
+@media (max-width: 1400px) {
+    h1.title {
+        color: white;
+        font-size: 8rem;
+        margin-bottom: 0;
+        margin-top: 1rem;
+    }
+    h2.subtitle {
+        color: white;
+        font-size: 2.5rem;
+        margin-top: 0rem;
+    }
+    .one-star {
+        width: 8rem;
+        height: 8rem;
+        display: inline-block;
+        background: url(/assets/star.png) no-repeat;
+        background-size: 8rem;
+        margin-bottom: -1rem;
+    }
+    .small-star {
+        width: 3rem;
+        height: 3rem;
+        display: inline-block;
+        background: url(/assets/star.png) no-repeat 3rem;
+        margin-bottom: -0.5rem;
+        background-size: 3rem;
+    }
+    div#mc_embed_signup {
+        margin-top: 10rem;
+    }
+}
+
+@media (max-width: 1150px) {
+    h1.title {
+        font-size: 6.5rem;
+    }
+    h2.subtitle {
+        font-size: 2.2rem;
+        margin-top: 2rem;
+    }
+    .one-star {
+        width: 5rem;
+        height: 5rem;
+        margin-bottom: -1rem;
+        display: inline-block;
+        background: url(/assets/star.png) no-repeat;
+        background-size: 5rem;
+    }
 }
 
 @media (max-width: 799px) {
@@ -144,6 +193,14 @@ h2.subtitle {
     .small-star {
         display: none;
     }
+    .one-star {
+        width: 5rem;
+        height: 5rem;
+        margin-bottom: -1rem;
+        display: inline-block;
+        background: url(/assets/star.png) no-repeat;
+        background-size: 5rem;
+    }
 }
 
 @media (max-width: 699px) {
@@ -153,6 +210,14 @@ h2.subtitle {
     h2.subtitle {
         font-size: 2rem;
         margin-top: 4rem;
+    }
+    .one-star {
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: -0.5rem;
+        display: inline-block;
+        background: url(/assets/star.png) no-repeat;
+        background-size: 3rem;
     }
     .small-star {
         display: none;
@@ -164,7 +229,7 @@ h2.subtitle {
     }
     #mc_embed_signup .button {
         font-size: 1.3rem;
-        min-height: 3.  5rem;
+        min-height: 3. 5rem;
         width: 19rem;
     }
 }
